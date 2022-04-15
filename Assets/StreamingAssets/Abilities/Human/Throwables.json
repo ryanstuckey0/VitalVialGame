@@ -1,0 +1,58 @@
+{
+  "id": "throwables",
+  "name": "Throwables",
+  "c#class": "Human.ThrowablesAbility",
+  "prereqs": {
+    "AND": [],
+    "OR": []
+  },
+  "levels": [
+    {
+      "number": "base",
+      "name": "Rock",
+      "description": "Does a small amount of damage to zombies.",
+      "prereqs": [],
+      "effect": "Rock",
+      "stats": {},
+      "cost": 1
+    },
+    {
+      "number": "1",
+      "name": "Alarm Clock",
+      "description": "Drop an alarm clock that zombies will gather around.",
+      "prereqs": ["base"],
+      "effect": "AlarmClock",
+      "stats": {},
+      "cost": 1
+    },
+    {
+      "number": "3",
+      "name": "Grenade",
+      "description": "Find and use grenades.",
+      "prereqs": ["1"],
+      "effect": "Grenade",
+      "stats": {},
+      "cost": 1
+    },
+    {
+      "number": "4",
+      "name": "Proximity Mine",
+      "description": "Find and use proximity mines. Explodes when zombies get too close.",
+      "prereqs": ["3"],
+      "effect": "ProximityMine",
+      "stats": {},
+      "cost": 3
+    },
+    {
+      "number": "2",
+      "name": "Bigger Inventory",
+      "description": "Carry 50% more throwables in your inventory.",
+      "prereqs": ["base"],
+      "effect": "ThrowableInventorySize",
+      "stats": {
+        "ThrowableInventorySizeMultiplier": 1.5
+      },
+      "cost": 2
+    }
+  ]
+}

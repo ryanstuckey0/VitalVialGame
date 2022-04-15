@@ -1,0 +1,64 @@
+{
+  "id": "shock-wave",
+  "name": "Shock Wave",
+  "c#class": "Supernatural.ShockWave.ShockWaveAbility",
+  "prereqs": {
+    "AND": [],
+    "OR": ["fire-attack"]
+  },
+  "levels": [
+    {
+      "number": "base",
+      "name": "Base",
+      "description": "Send out a shock wave that pushes enemies back.",
+      "prereqs": [],
+      "stats": {
+        "Cooldown": "30",
+        "Range": "10"
+      },
+      "enemies": ["Grunt"],
+      "cost": 2
+    },
+    {
+      "number": "1",
+      "name": "Cooldown",
+      "description": "Decrease cooldown.",
+      "prereqs": ["base"],
+      "stats": {
+        "Cooldown": "20"
+      },
+      "cost": 2
+    },
+    {
+      "number": "2",
+      "name": "Range",
+      "description": "Increase range of shock wave by 50%.",
+      "prereqs": ["base"],
+      "stats": {
+        "Range": "15"
+      },
+      "cost": 3
+    },
+    {
+      "number": "3",
+      "name": "Range",
+      "description": "Shock wave now damages enemies.",
+      "prereqs": ["1", "2"],
+      "stats": {
+        "Damage": 75
+      },
+      "cost": 4
+    },
+    {
+      "number": "DEBUG",
+      "description": "THIS IS A DEBUG ABILITY LEVEL.",
+      "prereqs": [],
+      "stats": {
+        "Cooldown": "0",
+        "Range": "10"
+      },
+      "enemies": ["Grunt"],
+      "cost": 1
+    }
+  ]
+}

@@ -1,0 +1,156 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &5037324535896369560
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 5037324535896369558}
+  - component: {fileID: 5037324535896369561}
+  - component: {fileID: 376469720688186025}
+  - component: {fileID: 7033648541767282339}
+  - component: {fileID: 7088818616612978201}
+  - component: {fileID: 3878625581876772225}
+  - component: {fileID: 159484046534866005}
+  m_Layer: 16
+  m_Name: UtilityGameObject
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &5037324535896369558
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5037324535896369560}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &5037324535896369561
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5037324535896369560}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 12e51d46aadf24b4b813981141443db3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  databaseName: WeaponRange
+  selectedItem: 0
+  haveToShowArr: 000000000000000000
+--- !u!114 &376469720688186025
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5037324535896369560}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c72ad18cf80f24e45b035af3722b3d94, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &7033648541767282339
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5037324535896369560}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a346b1c3b0ca4434283656492a9257b5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  MetalBulletImpact: {fileID: 7340898208674987806, guid: b3aea44c19cc51f4ba0b9772fb7704e0, type: 3}
+  WoodBulletImpact: {fileID: 2159213030765764557, guid: dd1d8266e8544684ead1ea821f011539, type: 3}
+  ZombieBulletImpace: {fileID: 4863669544042206, guid: ed67c2cb8e3a7fb418c6fbb1b001dce2, type: 3}
+  StoneBulletImpact: {fileID: 5179800398872457642, guid: daa7b6f8fe986ae4989547c7e7a17c56, type: 3}
+--- !u!114 &7088818616612978201
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5037324535896369560}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 682d2bdb049cadf48aea28122f264385, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  EventSystem: {fileID: 0}
+  WaveSpawner: {fileID: 0}
+  BuyableDoorController: {fileID: 0}
+--- !u!114 &3878625581876772225
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5037324535896369560}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9979e040dadcda649a63608e9622aee1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  pickups:
+  - prefab: {fileID: 1433627493693352355, guid: 748203b5617f1ce418345917c0d4ef0f, type: 3}
+    SpawnWeight: 4
+  - prefab: {fileID: 8116941166624243237, guid: b4edba8f601aecf4390d11236e2e9d56, type: 3}
+    SpawnWeight: 2
+  - prefab: {fileID: 9135654140308015088, guid: 6957e097c9d89e44f88d59b8c9fc197d, type: 3}
+    SpawnWeight: 3
+  - prefab: {fileID: 8269002311217329063, guid: 0094dd455f3d36144a3417184982306a, type: 3}
+    SpawnWeight: 3
+  chanceToSpawnAnyPickup: 0.25
+  UnlockablePickups:
+    elements:
+    - key: Turret
+      value:
+        prefab: {fileID: 2716401277835892290, guid: 976d3f44990380941b993ed3546fd311, type: 3}
+        SpawnWeight: 2
+    - key: Grenade
+      value:
+        prefab: {fileID: 8759748789976604784, guid: 3a3107b4722c53e4b9af82c72c865a1d, type: 3}
+        SpawnWeight: 2
+    - key: ProximityMine
+      value:
+        prefab: {fileID: 1635655949898344124, guid: e52d5d4e2101c264b858479358151bc1, type: 3}
+        SpawnWeight: 1.5
+    - key: AlarmBomb
+      value:
+        prefab: {fileID: 2190423022928094145, guid: 828b46b8a2579984bb15fcf57e6c2111, type: 3}
+        SpawnWeight: 3
+--- !u!114 &159484046534866005
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5037324535896369560}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8c9ce4cabc9e11e489acad763489551b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  BuyableDoors:
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}

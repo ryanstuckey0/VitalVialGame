@@ -1,0 +1,73 @@
+{
+  "id": "blink",
+  "name": "Blink",
+  "c#class": "Supernatural.Blink.BlinkAbility",
+  "prereqs": {
+    "AND": [],
+    "OR": ["health-boost"]
+  },
+  "levels": [
+    {
+      "number": "base",
+      "name": "Base",
+      "description": "Teleport a short distance.",
+      "prereqs": [],
+      "stats": {
+        "Cooldown": "25",
+        "Range": "10"
+      },
+      "cost": 1
+    },
+    {
+      "number": "1",
+      "name": "Cooldown",
+      "description": "Decrease cooldown to 15 seconds.",
+      "prereqs": ["base"],
+      "stats": {
+        "Cooldown": "15"
+      },
+      "cost": 1
+    },
+    {
+      "number": "3",
+      "name": "Quantity",
+      "description": "Blink twice before cooldown.",
+      "prereqs": ["1"],
+      "stats": {},
+      "effect": "double-blink",
+      "cost": 2
+    },
+    {
+      "number": "2",
+      "name": "Range",
+      "description": "Increase blink distance.",
+      "prereqs": ["base"],
+      "stats": {
+        "Range": "15"
+      },
+      "cost": 3
+    },
+    {
+      "number": "4",
+      "name": "Shock Wave",
+      "description": "Release a small shock wave after blinking.",
+      "prereqs": ["2"],
+      "stats": {
+        "damage": 50,
+        "range": 5
+      },
+      "effect": "post-blink-shock-wave",
+      "cost": 4
+    },
+    {
+      "number": "DEBUG",
+      "description": "THIS IS A DEBUG ABILITY LEVEL.",
+      "prereqs": [],
+      "stats": {
+        "Cooldown": "0",
+        "Range": "20"
+      },
+      "cost": 1
+    }
+  ]
+}

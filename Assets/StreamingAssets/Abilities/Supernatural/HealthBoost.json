@@ -1,0 +1,66 @@
+{
+  "id": "health-boost",
+  "name": "Health Boost",
+  "c#class": "Supernatural.HealthBoost.HealthBoostAbility",
+  "prereqs": {
+    "AND": [],
+    "OR": []
+  },
+  "levels": [
+    {
+      "number": "base",
+      "name": "Base",
+      "description": "Convert all collected experience into health.",
+      "prereqs": [],
+      "stats": {
+        "Cooldown": "60",
+        "Duration": "15",
+        "Player.Speed": "1",
+        "HealthPerExp": 0.1
+      },
+      "cost": 2
+    },
+    {
+      "number": "1",
+      "name": "Cooldown",
+      "description": "Decrease cooldown from 60 seconds to 30 seconds.",
+      "prereqs": ["base"],
+      "stats": {
+        "Cooldown": "60"
+      },
+      "cost": 1
+    },
+    {
+      "number": "2",
+      "name": "Efficiency",
+      "description": "Increases health gained from experience collected.",
+      "prereqs": ["base"],
+      "stats": {
+        "HealthPerExp": 1
+      },
+      "cost": 6
+    },
+    {
+      "number": "3",
+      "name": "Speed",
+      "description": "Move twice as fast for the duration of the ability.",
+      "prereqs": ["1", "2"],
+      "stats": {
+        "Player.Speed": "2"
+      },
+      "cost": 2
+    },
+    {
+      "number": "DEBUG",
+      "description": "THIS IS A DEBUG ABILITY LEVEL.",
+      "prereqs": [],
+      "stats": {
+        "Cooldown": "0",
+        "Duration": "15",
+        "Player.Speed": "1",
+        "HealthPerExp": 10
+      },
+      "cost": 1
+    }
+  ]
+}

@@ -1,0 +1,169 @@
+fileFormatVersion: 2
+guid: 32973a3289fce0b48a8fb3f56515969c
+timeCreated: 1478791206
+licenseType: Store
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: Antenna_Tower_1A
+    100002: Antenna_Tower_1A2_Broken
+    100004: Antenna_Tower_1A_Broken
+    100006: Concrete_Slab_1A
+    100008: Metal_Beam_1A
+    100010: //RootNode
+    100012: Substation_Power_Coils_1A
+    100014: Substation_Power_Coils_1A2
+    100016: Substation_Power_Coils_1A3
+    100018: Substation_Power_Coils_1B
+    100020: Substation_Power_Coils_1B2
+    100022: Substation_Power_Unit_1A
+    100024: Substation_Power_Unit_1A2
+    100026: Substation_Power_Unit_1B
+    100028: Substation_Power_Unit_1B2
+    100030: Substation_Power_Unit_1C
+    100032: Substation_Power_Unit_1C2
+    400000: Antenna_Tower_1A
+    400002: Antenna_Tower_1A2_Broken
+    400004: Antenna_Tower_1A_Broken
+    400006: Concrete_Slab_1A
+    400008: Metal_Beam_1A
+    400010: //RootNode
+    400012: Substation_Power_Coils_1A
+    400014: Substation_Power_Coils_1A2
+    400016: Substation_Power_Coils_1A3
+    400018: Substation_Power_Coils_1B
+    400020: Substation_Power_Coils_1B2
+    400022: Substation_Power_Unit_1A
+    400024: Substation_Power_Unit_1A2
+    400026: Substation_Power_Unit_1B
+    400028: Substation_Power_Unit_1B2
+    400030: Substation_Power_Unit_1C
+    400032: Substation_Power_Unit_1C2
+    2300000: Antenna_Tower_1A
+    2300002: Antenna_Tower_1A2_Broken
+    2300004: Antenna_Tower_1A_Broken
+    2300006: Concrete_Slab_1A
+    2300008: Metal_Beam_1A
+    2300010: Substation_Power_Coils_1A
+    2300012: Substation_Power_Coils_1A2
+    2300014: Substation_Power_Coils_1A3
+    2300016: Substation_Power_Coils_1B
+    2300018: Substation_Power_Coils_1B2
+    2300020: Substation_Power_Unit_1A
+    2300022: Substation_Power_Unit_1A2
+    2300024: Substation_Power_Unit_1B
+    2300026: Substation_Power_Unit_1B2
+    2300028: Substation_Power_Unit_1C
+    2300030: Substation_Power_Unit_1C2
+    3300000: Antenna_Tower_1A
+    3300002: Antenna_Tower_1A2_Broken
+    3300004: Antenna_Tower_1A_Broken
+    3300006: Concrete_Slab_1A
+    3300008: Metal_Beam_1A
+    3300010: Substation_Power_Coils_1A
+    3300012: Substation_Power_Coils_1A2
+    3300014: Substation_Power_Coils_1A3
+    3300016: Substation_Power_Coils_1B
+    3300018: Substation_Power_Coils_1B2
+    3300020: Substation_Power_Unit_1A
+    3300022: Substation_Power_Unit_1A2
+    3300024: Substation_Power_Unit_1B
+    3300026: Substation_Power_Unit_1B2
+    3300028: Substation_Power_Unit_1C
+    3300030: Substation_Power_Unit_1C2
+    4300000: Substation_Power_Coils_1A2
+    4300002: Substation_Power_Unit_1C
+    4300004: Substation_Power_Unit_1B
+    4300006: Substation_Power_Coils_1A3
+    4300008: Substation_Power_Coils_1B
+    4300010: Substation_Power_Coils_1A
+    4300012: Substation_Power_Unit_1C2
+    4300014: Substation_Power_Unit_1B2
+    4300016: Antenna_Tower_1A
+    4300018: Antenna_Tower_1A2_Broken
+    4300020: Antenna_Tower_1A_Broken
+    4300022: Concrete_Slab_1A
+    4300024: Metal_Beam_1A
+    4300026: Substation_Power_Unit_1A2
+    4300028: Substation_Power_Unit_1A
+    4300030: Substation_Power_Coils_1B2
+    6400000: Antenna_Tower_1A
+    6400002: Antenna_Tower_1A2_Broken
+    6400004: Antenna_Tower_1A_Broken
+    6400006: Concrete_Slab_1A
+    6400008: Metal_Beam_1A
+    6400010: Substation_Power_Coils_1A
+    6400012: Substation_Power_Coils_1A2
+    6400014: Substation_Power_Coils_1A3
+    6400016: Substation_Power_Coils_1B
+    6400018: Substation_Power_Coils_1B2
+    6400020: Substation_Power_Unit_1A
+    6400022: Substation_Power_Unit_1A2
+    6400024: Substation_Power_Unit_1B
+    6400026: Substation_Power_Unit_1B2
+    6400028: Substation_Power_Unit_1C
+    6400030: Substation_Power_Unit_1C2
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleRotations: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 1
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

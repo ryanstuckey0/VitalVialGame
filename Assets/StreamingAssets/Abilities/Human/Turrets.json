@@ -1,0 +1,64 @@
+{
+  "id": "turrets",
+  "name": "Turrets",
+  "c#class": "Human.TurretsAbility",
+  "prereqs": {
+    "AND": [],
+    "OR": ["throwables"]
+  },
+  "levels": [
+    {
+      "number": "base",
+      "name": "Turrets",
+      "description": "Place automated turrets that find and shoot at nearby zombies. Turret is destroyed once its limited ammo capacity is depleted.",
+      "prereqs": [],
+      "effect": "UnlockTurrets",
+      "stats": {},
+      "cost": 4
+    },
+    {
+      "number": "1",
+      "name": "Bigger Inventory",
+      "description": "Carry twice as many turrets in your inventory as before.",
+      "prereqs": ["base"],
+      "effect": "TurretInventorySize",
+      "stats": {
+        "TurretInventorySizeMultiplier": 2
+      },
+      "cost":2
+    },
+    {
+      "number": "3",
+      "name": "Ammo Capacity",
+      "description": "Turrets now start with double the ammo.",
+      "prereqs": ["1"],
+      "effect": "TurretAmmoCapacity",
+      "stats": {
+        "TurretAmmoCapacityMultiplier": 2
+      },
+      "cost": 3
+    },
+    {
+      "number": "2",
+      "name": "Damage Boost",
+      "description": "Turrets now do double the damage.",
+      "prereqs": ["base"],
+      "effect": "TurretDamage",
+      "stats": {
+        "TurretDamageMultiplier": 2
+      },
+      "cost": 3
+    },
+    {
+      "number": "4",
+      "name": "Better Cooling",
+      "description": "Improves cooling on turrets so they overheat less often.",
+      "prereqs": ["2"],
+      "effect": "TurretOverheatLimit",
+      "stats": {
+        "TurretOverheatLimit": 1.5
+      },
+      "cost": 2
+    }
+  ]
+}

@@ -1,0 +1,121 @@
+fileFormatVersion: 2
+guid: 7991e0a704e8a2a44a226868bab0b88d
+timeCreated: 1476809353
+licenseType: Store
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: Grave_Stone_1D
+    100002: Grave_Stone_1D2
+    100004: Grave_Stone_1D3
+    100006: Grave_Stone_1D4
+    100008: Grave_Stone_1E
+    100010: Grave_Stone_1E2
+    100012: Grave_Stone_1E3
+    100014: Grave_Stone_1E4
+    100016: //RootNode
+    400000: Grave_Stone_1D
+    400002: Grave_Stone_1D2
+    400004: Grave_Stone_1D3
+    400006: Grave_Stone_1D4
+    400008: Grave_Stone_1E
+    400010: Grave_Stone_1E2
+    400012: Grave_Stone_1E3
+    400014: Grave_Stone_1E4
+    400016: //RootNode
+    2300000: Grave_Stone_1D
+    2300002: Grave_Stone_1D2
+    2300004: Grave_Stone_1D3
+    2300006: Grave_Stone_1D4
+    2300008: Grave_Stone_1E
+    2300010: Grave_Stone_1E2
+    2300012: Grave_Stone_1E3
+    2300014: Grave_Stone_1E4
+    3300000: Grave_Stone_1D
+    3300002: Grave_Stone_1D2
+    3300004: Grave_Stone_1D3
+    3300006: Grave_Stone_1D4
+    3300008: Grave_Stone_1E
+    3300010: Grave_Stone_1E2
+    3300012: Grave_Stone_1E3
+    3300014: Grave_Stone_1E4
+    4300000: Grave_Stone_1D4
+    4300002: Grave_Stone_1E4
+    4300004: Grave_Stone_1E3
+    4300006: Grave_Stone_1D3
+    4300008: Grave_Stone_1D2
+    4300010: Grave_Stone_1E2
+    4300012: Grave_Stone_1E
+    4300014: Grave_Stone_1D
+    6400000: Grave_Stone_1D
+    6400002: Grave_Stone_1D2
+    6400004: Grave_Stone_1D3
+    6400006: Grave_Stone_1D4
+    6400008: Grave_Stone_1E
+    6400010: Grave_Stone_1E2
+    6400012: Grave_Stone_1E3
+    6400014: Grave_Stone_1E4
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleRotations: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 1
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

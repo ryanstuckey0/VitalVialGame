@@ -1,0 +1,14 @@
+{
+  "magazineCapacity": 8,
+  "startWithFullAmmo": true,
+  "rateOfFire": -1,
+  "isFullAuto": false,
+  "distance": 8,
+  "damage": 10,
+  "raycaster": {
+    "class": "ViralVial.Weapons.ShotgunShellRaycaster",
+    "spreadRange": 1,
+    "numberOfPellets": 10,
+    "originOffset": [0, -1, 0]
+  }
+}

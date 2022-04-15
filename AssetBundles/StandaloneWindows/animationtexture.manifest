@@ -1,0 +1,22 @@
+ManifestFileVersion: 0
+CRC: 1132357861
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 9ffa84d529ebe668c66c8ead51f307ac
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 5ad585dd02dfb5016c0dad519eab8f49
+HashAppended: 0
+ClassTypes:
+- Class: 49
+  Script: {instanceID: 0}
+SerializeReferenceClassIdentifiers: []
+Assets:
+- Assets/AnimationTexture/ZombOld(Clone).bytes
+- Assets/AnimationTexture/ZombGray.bytes
+- Assets/AnimationTexture/ZombGray(Clone).bytes
+- Assets/AnimationTexture/ZombButch.bytes
+- Assets/AnimationTexture/ZombButch(Clone).bytes
+- Assets/AnimationTexture/ZombOld.bytes
+Dependencies: []

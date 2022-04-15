@@ -1,0 +1,80 @@
+{
+  "id": "guns",
+  "name": "Guns",
+  "c#class": "Human.GunsAbility",
+  "prereqs": {
+    "AND": [],
+    "OR": []
+  },
+  "levels": [
+    {
+      "number": "base",
+      "name": "SMG",
+      "description": "Now you can use a submachine gun for even more zombie slaying fun.",
+      "prereqs": [],
+      "effect": "SMG",
+      "stats": {},
+      "cost": 1
+    },
+    {
+      "number": "1",
+      "name": "Unlock AR",
+      "description": "Provides an upgrade to the SMG with more range and damage.",
+      "prereqs": ["base"],
+      "effect": "AR",
+      "stats": {},
+      "cost": 2
+    },
+    {
+      "number": "3",
+      "name": "Unlock Shotgun",
+      "description": "Do tons of damage at short range.",
+      "prereqs": ["1"],
+      "effect": "Shotgun",
+      "stats": {},
+      "cost": 4
+    },
+    {
+      "number": "5",
+      "name": "Unlock LMG",
+      "description": "Lower rate of fire with a longer range and more damage.",
+      "prereqs": ["3"],
+      "effect": "LMG",
+      "stats": {},
+      "cost": 5
+    },
+    {
+      "number": "2",
+      "name": "More Damage",
+      "description": "Guns now do 50% more damage.",
+      "prereqs": ["base"],
+      "effect": "MoreDamage",
+      "stats": {
+        "DamageMultiplier": 0.5
+      },
+      "cost": 1
+    },
+    {
+      "number": "4",
+      "name": "Increase magazine size",
+      "description": "Increase magazine size in all guns by 50%.",
+      "prereqs": ["2"],
+      "effect": "MagazineSizeIncrease",
+      "stats": {
+        "MagazineSizeMultiplier": 0.5
+      },
+      "cost": 2
+    },
+    {
+      "number": "6",
+      "name": "Even More Damage",
+      "description": "In case you're still struggling, guns now do an additional 50% of damage.",
+      "prereqs": ["4"],
+      "effect": "MoreDamage",
+      "stats": {
+        "DamageMultiplier": 0.5
+      },
+      "cost": 2
+    }
+  ]
+}

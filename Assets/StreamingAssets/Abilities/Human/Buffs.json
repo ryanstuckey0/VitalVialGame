@@ -1,0 +1,92 @@
+{
+  "id": "buffs",
+  "name": "Buffs",
+  "c#class": "Human.BuffsAbility",
+  "prereqs": {
+    "AND": [],
+    "OR": ["melee", "guns"]
+  },
+  "levels": [
+    {
+      "number": "base",
+      "name": "More Damage",
+      "description": "All attacks now do 50% more damage.",
+      "prereqs": [],
+      "effect": "MoreDamage",
+      "stats": {
+        "DamageMultiplier": 0.5
+      },
+      "cost": 3
+    },
+    {
+      "number": "1",
+      "name": "Fast Dash",
+      "description": "Dash is now twice as quick.",
+      "prereqs": ["base"],
+      "effect": "DashSpeed",
+      "stats": {
+        "DashSpeedMultiplier": 1
+      },
+      "cost": 2
+    },
+    {
+      "number": "3",
+      "name": "Speed Boost",
+      "description": "Gain a short speed boost after dashing.",
+      "prereqs": ["1"],
+      "effect": "DashSpeedBoost",
+      "stats": {
+        "SpeedBoost": 2,
+        "SpeedBoostDuration": 2
+      },
+      "cost": 2
+    },
+    {
+      "number": "5",
+      "name": "Shock Wave",
+      "description": "Release a damaging shock wave after dashing.",
+      "prereqs": ["3"],
+      "effect": "DashShockWave",
+      "stats": {
+        "DashShockWaveDamage": 50,
+        "DashShockWaveRange": 5
+      },
+      "cost": 3
+    },
+    {
+      "number": "2",
+      "name": "Quick Reload",
+      "description": "Reload twice as fast.",
+      "prereqs": ["base"],
+      "effect": "ReloadSpeed",
+      "stats": {
+        "ReloadMultiplier": 2
+      },
+      "cost": 4
+    },
+    {
+      "number": "4",
+      "name": "Protected Dash",
+      "description": "Gain invulnerability for a short time after you dash.",
+      "effect": "ProtectedDash",
+      "prereqs": ["2"],
+      "stats": {
+        "Duration": 3
+      },
+      "cost": 3
+    },
+    {
+      "number": "6",
+      "name": "Health Regen",
+      "description": "Automatic health regeneration if you're bad enough to get below 50 health.",
+      "prereqs": ["4"],
+      "effect": "HealthRegen",
+      "stats": {
+        "HealthThreshold": 50,
+        "RegenAmount": 10,
+        "RegenInterval": 2
+      },
+      "cost": 4
+    }
+  ]
+}

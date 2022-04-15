@@ -1,0 +1,11 @@
+{
+  "magazineCapacity": 26,
+  "startWithFullAmmo": true,
+  "rateOfFire": 17,
+  "isFullAuto": true,
+  "distance": 10,
+  "damage": 7,
+  "raycaster": {
+    "class": "ViralVial.Weapons.SingleBulletRaycaster"
+  }
+}

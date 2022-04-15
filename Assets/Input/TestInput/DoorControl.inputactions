@@ -1,0 +1,52 @@
+{
+    "name": "DoorControl",
+    "maps": [
+        {
+            "name": "Door",
+            "id": "78b0abf5-f54c-4a77-82f9-1d0118162b5f",
+            "actions": [
+                {
+                    "name": "DoorToggleOne",
+                    "type": "Button",
+                    "id": "e3065a75-1749-4b15-bc32-d20fbe1facc9",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": ""
+                },
+                {
+                    "name": "DoorToggleTwo",
+                    "type": "Button",
+                    "id": "c86cac8f-a537-4131-8c9c-2fae6b37fbee",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": ""
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "09f4f4a8-3a25-449d-9989-8dc86329341c",
+                    "path": "<Keyboard>/5",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "DoorToggleOne",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "a0026326-ee17-4307-aef9-208e4a679f15",
+                    "path": "<Keyboard>/6",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "DoorToggleTwo",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        }
+    ],
+    "controlSchemes": []
+}

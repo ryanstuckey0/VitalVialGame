@@ -1,0 +1,60 @@
+{
+  "id": "melee",
+  "name": "Melee",
+  "c#class": "Human.MeleeAbility",
+  "prereqs": {
+    "AND": [],
+    "OR": []
+  },
+  "levels": [
+    {
+      "number": "base",
+      "name": "Knife",
+      "description": "Unlock a knife to use for melee instead of your fists.",
+      "prereqs": [],
+      "effect": "Knife",
+      "stats": {},
+      "cost": 1
+    },
+    {
+      "number": "1",
+      "name": "Unlock Machete",
+      "description": "Wield the might machete for even more efficient zombie slaying.",
+      "prereqs": ["base"],
+      "effect": "Machete",
+      "stats": {},
+      "cost": 2
+    },
+    {
+      "number": "3",
+      "name": "Unlock Katana",
+      "description": "Unlock the ultimate weapon to cut through hoards of zombies.",
+      "prereqs": ["1"],
+      "effect": "Katana",
+      "stats": {},
+      "cost": 3
+    },
+    {
+      "number": "2",
+      "name": "Melee Faster",
+      "description": "Melee twice as fast as before!",
+      "prereqs": ["base"],
+      "effect": "MeleeSpeed",
+      "stats": {
+        "MeleeSpeedMultiplier": 1
+      },
+      "cost": 2
+    },
+    {
+      "number": "4",
+      "name": "Sharper Blades",
+      "description": "Melee attacks now do twice as much damage!",
+      "prereqs": ["2"],
+      "effect": "MeleeDamage",
+      "stats": {
+        "DamageMultiplier": 1
+      },
+      "cost": 3
+    }
+  ]
+}

@@ -1,0 +1,12 @@
+{
+  "ammoCapacity": 150,
+  "rateOfFire": 10,
+  "damagePerShot": 10,
+  "targetSearchInterval": 1,
+  "targetDetectionRange": 20,
+  "targetHoldLockRange": 30,
+  "overheatTemperature": 75,
+  "cooldownTemperature": 25,
+  "temperatureOverheatRate": 15,
+  "temperatureCooldownRate": 20
+}

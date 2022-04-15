@@ -1,0 +1,94 @@
+{
+  "id": "fire-attack",
+  "name": "Elemental Attack",
+  "c#class": "Supernatural.ElementalAttack.FireAttackAbility",
+  "prereqs": {
+    "AND": [],
+    "OR": []
+  },
+  "levels": [
+    {
+      "number": "base",
+      "name": "Base",
+      "description": "Release flames that do damage over time.",
+      "prereqs": [],
+      "stats": {
+        "Duration": "10",
+        "Cooldown": "30",
+        "DamagePerInterval": "10",
+        "DamageIntervalTime": "2",
+        "BurnTime": "10",
+        "RateOfFire": "8"
+      },
+      "enemies": ["Grunt"],
+      "cost": 2
+    },
+    {
+      "number": "1",
+      "name": "Cooldown",
+      "description": "Decrease cooldown.",
+      "prereqs": ["base"],
+      "stats": {
+        "Cooldown": "20"
+      },
+      "cost": 1
+    },
+    {
+      "number": "3",
+      "name": "Duration",
+      "description": "Increase duration of fire attack.",
+      "prereqs": ["1"],
+      "stats": {
+        "Duration": "15"
+      },
+      "cost": 2
+    },
+    {
+      "number": "2",
+      "name": "Damage",
+      "description": "Increase damage done by fire by 50%.",
+      "prereqs": ["base"],
+      "stats": {
+        "DamagePerInterval": 15
+      },
+      "cost": 3
+    },
+    {
+      "number": "4",
+      "name": "Burn Duration",
+      "description": "Enemies will now burn for 75% longer.",
+      "prereqs": ["2"],
+      "stats": {
+        "BurnTime": 17.5
+      },
+      "cost": 3
+    },
+    {
+      "number": "5",
+      "name": "Range",
+      "description": "Fire now has a chance to spread to other enemies within range.",
+      "prereqs": ["4"],
+      "effect": "fire-spreads",
+      "stats": {
+        "SpreadRange": 1,
+        "SpreadChance": 0.5
+      },
+      "cost": 3
+    },
+    {
+      "number": "DEBUG",
+      "description": "THIS IS A DEBUG ABILITY LEVEL.",
+      "prereqs": [],
+      "stats": {
+        "Duration": "30",
+        "Cooldown": "0",
+        "DamagePerInterval": "20",
+        "DamageIntervalTime": "2",
+        "BurnTime": 10,
+        "RateOfFire": 4
+      },
+      "enemies": ["Grunt"],
+      "cost": 1
+    }
+  ]
+}

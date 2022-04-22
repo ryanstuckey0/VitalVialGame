@@ -26,5 +26,5 @@ In doing this, I got a lot of experience in multiple areas in Unity and C#. Some
 
 ## Contents:
 - [Releases](https://github.com/ryanstuckey0/VitalVialGame/releases) - for the most recent working build of the game
-- [Docs](https://github.com/ryanstuckey0/VitalVialGame/tree/main/docs) - for documentation on how to play, some technical aspects, and more
-- [Source Code](https://github.com/ryanstuckey0/VitalVialGame/tree/main/Assets/Scripts) - to see all the code we wrote for this project
+- [Docs](docs) - for documentation on how to play, some technical aspects, and more
+- [Source Code](Assets/Scripts) - to see all the code we wrote for this project

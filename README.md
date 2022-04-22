@@ -37,13 +37,13 @@ Additionally, working on a team with like this also gave me the opportunity to w
 - [Source Code](Assets/Scripts) - to see all the code we wrote for this project
 
 ---
-# Sprints
+## Sprints
 As mentioned above, we had to present at the end of each two week sprint. The presentations for those sprints are linked below:
 
 | Sprint| Accomplishments |
 | :---: | :--- |
-|[Sprint 1](https://1drv.ms/p/s!AqyxDV2qMP3lhNxBuKw5Yz_L5nK2vQ?e=QwzdRB)| Planned out what we wanted for our game; made basic game state machine |
-|[Sprint 2](https://1drv.ms/p/s!AqyxDV2qMP3lhNxCWTr3PsRUjF1bPw?e=fTXcy2)| Further fleshed out gameplay loop; implemented first player ability (time freeze); added simple NPC behavior; created Main Menu draft UI & Logic |
+| [Sprint 1](https://1drv.ms/p/s!AqyxDV2qMP3lhNxBuKw5Yz_L5nK2vQ?e=QwzdRB) | Planned out what we wanted for our game; made basic game state machine |
+| [Sprint 2](https://1drv.ms/p/s!AqyxDV2qMP3lhNxCWTr3PsRUjF1bPw?e=fTXcy2) | Further fleshed out gameplay loop; implemented first player ability (time freeze); added simple NPC behavior; created Main Menu draft UI & Logic |
 | [Sprint 3](https://1drv.ms/p/s!AqyxDV2qMP3lhNxDrHZ_VoOigie08Q?e=rhetE8) | Found and add player model with walking; dodge animations; added mind control player ability; mapped out full tech tree; added in game player HUD, planned out procedural terrain generation |
 | [Sprint 4](https://1drv.ms/p/s!AqyxDV2qMP3lhNxFpFjyUz2Jf3Pkyw?e=lJGgKF) | Implemented player aiming, melee, and range weapons; made abilities load from JSON files; planned out initial PCG world tile system; created initial tech tree UI mockups |
 | [Sprint 5](https://1drv.ms/p/s!AqyxDV2qMP3lhNxHEFTkrePGZ-kwOg?e=TTkrQU) | Improved gun aiming; tested out new camera style; moved gun configuration to JSON files, improved ability animations; added shock wave, blink, and elemental attack abilities; moved to use animation instancing for enemy rendering; initial implementation of procedurally generated cities; implemented sound volume options and key rebinding |

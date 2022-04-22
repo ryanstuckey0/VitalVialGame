@@ -6,17 +6,19 @@ The main point of the game is to survive. This gets harder as each new wave brin
 
 The controls for the game are below.
 
-Keyboard & Mouse:
-![Keyboard Layout](docs/images/Controls_KeyboardLayout.png)
-![Mouse Layout](docs/images/Controls_MouseLayout.png)
+<div style="display: flex">
+<img src="images/Controls_KeyboardLayout.png" alt="Keyboard Layout" height=300px>
+<img src="images/Controls_MouseLayout.png" alt="Mouse Layout" height=300px>
+</div>
 
-Controller:
-![Controller Layout](docs/images/Controls_GamepadLayout.png)
+<br>
+
+<img src="images/Controls_GamepadLayout.png" alt="Controller Layout" height=300px>
 
 This is all you'll need to get started with the game. To see more advanced guides, see the content section below.
 
 ---
 ## Folder Contents
-- something
-- something
-- something
+- [Complete Guide](Complete%20Guide.md)
+- [Gameplay Poster](Gameplay%20Poster.pdf)
+- [Technical Poster](Technical%20Poster.pdf)

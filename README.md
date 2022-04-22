@@ -1,3 +1,4 @@
+![Game Logo](docs\images\Title.png)
 # Vital Vial - A Game By Viral Studios
 
 This is our project that we did for our capstone class, CSE 5912, at The Ohio State University.

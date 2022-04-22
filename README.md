@@ -1,4 +1,4 @@
-![Game Logo](docs\images\Title.png)
+![Game Logo](docs/images/Title.png)
 # Vital Vial - A Game By Viral Studios
 
 This is our project that we did for our capstone class, CSE 5912, at The Ohio State University.
@@ -17,10 +17,10 @@ In making the game, my main roles were working on everything to do with the play
 - Implementing all weapons (guns, melee, turrets, grenades, etc.)
 
 In doing this, I got a lot of experience in multiple areas in Unity and C#. Some important features and concepts I worked with were:
-- C# events- Used a lot for inter-class communication and to reduce coupling between classes; heavily used our custom [EventManager.cs](Assets\Scripts\Utilities\EventManager.cs) to control events
+- C# events- Used a lot for inter-class communication and to reduce coupling between classes; heavily used our custom [EventManager.cs](Assets/Scripts/Utilities/EventManager.cs) to control events
 - Unity's Animator Controller- While the player asset we used came with an animation controller, I modified it pretty heavily to simplify it and make it work for us
-- Unity's new Input System- This is how we support both keyboard and controller input; we used various input mappings that update based on what the player is doing (the logic for that can be seen in [PlayerInputController.cs](Assets\Scripts\Player\MonoBehaviourScript\PlayerInputController.cs))
-- Unity Coroutines- Used in nearly every part of our project to control things like animation, weapon firing, or ability cooldowns. I made the [CoroutineRunner.cs](Assets\Scripts\Utilities\CoroutineRunner.cs) class to make it easier to control and work with coroutines.
+- Unity's new Input System- This is how we support both keyboard and controller input; we used various input mappings that update based on what the player is doing (the logic for that can be seen in [PlayerInputController.cs](Assets/Scripts/Player/MonoBehaviourScript/PlayerInputController.cs))
+- Unity Coroutines- Used in nearly every part of our project to control things like animation, weapon firing, or ability cooldowns. I made the [CoroutineRunner.cs](Assets/Scripts/Utilities/CoroutineRunner.cs) class to make it easier to control and work with coroutines.
 
 ---
 
